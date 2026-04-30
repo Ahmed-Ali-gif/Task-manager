@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-Manager</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ------------------------------------------------ -->
+    <div class="container">
+      <div class="side__bar">
+        <div class="logo__container">
+          <img
+            class="side__bar__logo-img"
+            src="./assets/images/focousflow.png"
+            alt=""
+          />
+          <span class="logo__heading">FocousFlow</span>
+        </div>
+        <div class="icons__box">
+          <div class="side__icon">
+            <i class="fa-regular fa-house side__icons"></i>
+            <span class="icon"
+              ><a class="icon__links" href="./index.html">Dashboard</a></span
+            >
+          </div>
+          <div class="side__icon">
+            <i class="fa-solid fa-list-check side__icons"></i>
+            <span class="icon"
+              ><a class="icon__links" href="./index.html">Tasks</a></span
+            >
+          </div>
+          <div class="side__icon">
+            <i class="fa-regular fa-note-sticky side__icons"></i>
+            <span class="icon"
+              ><a class="icon__links" href="./index.html">Notes</a></span
+            >
+          </div>
+          <div class="side__icon">
+            <i class="fa-solid fa-chart-column side__icons"></i>
+            <span class="icon"
+              ><a class="icon__links" href="./index.html">Statistics</a></span
+            >
+          </div>
+          <div class="side__icon">
+            <i class="fa-regular fa-address-card side__icons"></i>
+            <span class="icon"
+              ><a class="icon__links" href="./index.html">Profile</a></span
+            >
+          </div>
+          <div class="side__icon">
+            <i class="fa-solid fa-bars-staggered side__icons"></i>
+            <span class="icon"
+              ><a class="icon__links" href="./index.html">Settings</a></span
+            >
+          </div>
+        </div>
+        <div class="dark__mode">
+          <i class="fa-regular fa-moon moon"></i>
+          <span class="dark__mode__text">Dark Mode</span>
+          <i class="fa-solid fa-toggle-on toggle"></i>
+        </div>
+      </div>
+      <!-- -------------------------------------------- -->
+      <div class="profile__bar">
+        <div class="profile__hmbergurger__container">
+          <i class="fa-solid fa-bars profile__hamurger"></i>
+        </div>
+        <div class="profile__container">
+          <div class="sub__profile__container__one">
+            <h2 class="profile__h2">Good Evening, Ahmed</h2>
+            <p class="profile__p">Lets plan your day and achieve your goals.</p>
+          </div>
+          <div class="sub__profile__container__two">
+            <div class="sub__profile">
+              <img src="./assets/icons/calender.png" alt="" />
+              <h3>May 20,2024</h3>
+            </div>
+            <span class="profile__day">Monday</span>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------ -->
+      <div class="progress__bar">
+        <div class="progress__box">
+          <div class="progress__main__box">
+            <p class="progress__p">75%</p>
+            <span class="progress__span">Completed</span>
+          </div>
+        </div>
+        <div class="progress__sub__box__two">
+          <h2 class="progress__h2">Daily Progress</h2>
+          <p class="progressbar__p">Great job! Your're making progress.</p>
+          <div class="sub__progressbar__box">
+            <div class="progressbar__box__one">
+              <i class="fa-regular fa-square-check progress__icon"></i>
+              <span class="progressbar__span">6</span>
+              <p class="progress__completed">Completed</p>
+            </div>
+            <div class="progressbar__box__two">
+              <i class="fa-solid fa-list-check progress__icon__two"></i>
+              <span class="progressbar__span">8</span>
+              <p class="progress__completed">Total Tasks</p>
+            </div>
+          </div>
+        </div>
+        <div class="img__div">
+          <img class="progress__img" src="./assets/images/img.png" alt="" />
+        </div>
+      </div>
+      <!-- ------------------------------------------- -->
+      <div class="card__one">cardsOne</div>
+      <!-- --------------------------------------------- -->
+      <div class="card__two">
+        <div class="notes__box">
+          <i class="fa-regular fa-note-sticky side__icons"></i>
+          <span class="notes__text">Notes</span>
+        </div>
+        <div class="writing__box">
+        </div>
+        <i class="fa-solid fa-plus plus"></i>
+      </div>
+    </div>
+    <!-- ---------------------------------------------- -->
+    <script src="./javacript/app.js"></script>
+    <script src="./javacript/storage.js"></script>
+    <script src="./javacript/ui.js"></script>
+  </body>
+</html>
